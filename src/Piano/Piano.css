@@ -1,0 +1,9 @@
+.piano
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-left: 39%;
+    min-height: 58.2vh;
+}

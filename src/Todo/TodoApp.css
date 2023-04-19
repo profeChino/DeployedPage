@@ -1,0 +1,83 @@
+
+ .todo-app {
+    width: 500px;
+    margin: 60px auto;
+    min-height: 49.89vh;
+  }
+  .todo-form, .todo {
+    border: 1px solid grey;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  .todo-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .todo-form input {
+    padding: 4px 8px;
+    flex-grow: 1;
+    margin-right: 16px;
+    border-radius: 8px;
+  }
+  .todo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .agregar-todo, .borrar-todo {
+    font-size: 16px;
+    background-color: rgb(47, 35, 206);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+  }
+  .agregar-todo:hover {
+    background-color: rgb(32, 25, 138);
+  }
+  .agregar-todo:active {
+    background-color: rgb(25, 19, 110);
+  }
+  .agregar-todo:focus {
+    outline: 0;
+  }
+  .todo-input { 
+    font-size: 16px; 
+    font-family: 'Lato', sans-serif; 
+    border-color: #cccccc;
+    }
+
+  .todo input[type="checkbox"] {
+    transform: scale(1.8) translateY(1px);
+    margin: 0 16px 0 0;
+    cursor: pointer;
+  }
+  .todo-text input {
+    padding: 4px;
+  }
+  .todo-text {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif; 
+  }
+  .todo-completed {
+    display: flex;
+    margin: 10px 0;
+  }
+  .todo-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .borrar-todo{
+    width: 80px;
+    align-items: center;
+  }

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.search-bar
+{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-search
+{
+  background-color: #1677ff;
+  
+}
+
+.card-container
+{
+
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.ant-card-body {
+  background: white;
+}
+
+.ant-card-head {
+  background: white;
+}
+
+.ant-card
+{
+  background: white;
+}
+
+.buscar-button
+{
+  margin-left: 47%;
+}
+
+.h1-album{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.ant-row{
+    margin-right: 0;
+}
+
+.spotify-app{
+  min-height: 56.3vh;
+}

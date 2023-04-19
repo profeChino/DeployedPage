@@ -1,0 +1,40 @@
+footer{
+    margin-top: auto;
+    width: 100%;
+    bottom: 0;
+    background-color: #212325;
+    padding: 10px 0 30px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.row{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .col{
+    text-align: center;
+    align-content: center;
+}
+
+.redes, .creditos{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.App{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.creditos{
+    font-size: 12px;
+}
+
