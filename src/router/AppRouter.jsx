@@ -25,11 +25,11 @@ export const AppRouter = () => {
     <>
         <Navbar />
         <Routes>
-            <Route path='/about' element={<Parallax titulo='PROYECTOS' t1='TECNOLOGIAS UTILIZADAS' t2='CAPYBARA PARTY' t3='ROLLIN&apos; IN THE 90&apos;S' t4='BLUEPRINT' t5='TOKI NO ATO' />}/>
-            <Route path='/spotify' element={<Spotify titulo='Buscar album'/>}/>
-            <Route path='/calculadora' element={<Calculadora titulo='Calculadora'/>}/>
-            <Route path='/todo' element={<TodoApp lista='To-do'/>}/>
-            <Route path='/piano' element={<PianoApp titulo='Piano'/>}/>
+            <Route path='/DeployedPage/about' element={<Parallax titulo='PROYECTOS' t1='TECNOLOGIAS UTILIZADAS' t2='CAPYBARA PARTY' t3='ROLLIN&apos; IN THE 90&apos;S' t4='BLUEPRINT' t5='TOKI NO ATO' />}/>
+            <Route path='/DeployedPage/spotify' element={<Spotify titulo='Buscar album'/>}/>
+            <Route path='/DeployedPage/calculadora' element={<Calculadora titulo='Calculadora'/>}/>
+            <Route path='/DeployedPage/todo' element={<TodoApp lista='To-do'/>}/>
+            <Route path='/DeployedPage/piano' element={<PianoApp titulo='Piano'/>}/>
             <Route path='/*' element={<MainPage/>}/>
         </Routes>  
     </>

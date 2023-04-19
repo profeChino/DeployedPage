@@ -68,7 +68,7 @@ class Piano extends React.Component {
         <audio
           id={note}
           key={index}
-          src={`../../notes/${note}.mp3`}
+          src={`./notes/${note}.mp3`}
         />
       );
     });
